@@ -1,0 +1,89 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+    border: 2px solid red;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search-input {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  width: 100%;
+}
+.search-icon {
+  width: 15px;
+  height: 15px;
+  color: #64748b;
+}
+.category-heading {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.Rating-heading {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.unorder-category-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  padding-left: 10px;
+  margin-top: 0px;
+  
+}
+.list-items-container {
+  background-color: transparent;
+  margin-top: 13px;
+  padding: 0px;
+}
+
+.button-catagiro {
+  color: #64748b;
+  width: auto;
+  font-size: 13px;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0px;
+}
+.name-up {
+  margin-top: 5px;
+  margin-left: 8px;
+}
+.rate-img {
+  width: 150px;
+}
+.button-clear{
+  background-color: transparent;
+  border-color: blue;
+  color: blue;
+  border-radius: 10px;
+  padding: 10px;
+  border-style: solid;
+  margin: 10px;
+}
